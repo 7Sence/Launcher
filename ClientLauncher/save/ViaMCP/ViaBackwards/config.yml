@@ -1,0 +1,32 @@
+# If you need help, you can join our Discord - https://viaversion.com/discord
+# 
+# Always shows a mapped mob's original name, and not only when hovering over it with the cursor.
+always-show-original-mob-name: true
+# 
+# Writes name and level of custom enchantments into the item's lore.
+# Set this to false if you see the entries doubled/if the custom-enchant plugin already writes these into the lore manually.
+add-custom-enchants-into-lore: true
+# 
+# Adds the color of a scoreboard team after its prefix for 1.12 clients on 1.13+ servers.
+add-teamcolor-to-prefix: true
+# 
+# Converts the 1.13 face look-at packet for 1.12- players. Requires a bit of extra caching.
+fix-1_13-face-player: false
+# 
+# Fixes 1.13 clients and lower not seeing color or formatting in inventory titles by converting them to legacy text.
+# If you have issues with translatable text being displayed wrongly, disable this.
+fix-formatted-inventory-titles: true
+# 
+# Sends inventory acknowledgement packets to act as a replacement for ping packets for sub 1.17 clients.
+# This only takes effect for ids in the short range. Useful for anticheat compatibility.
+handle-pings-as-inv-acknowledgements: false
+# 
+# 1.19.1 chat type formats.
+chat-types-1_19_1:
+  chat.type.text: <%s> %s
+  chat.type.announcement: '[%s] %s'
+  commands.message.display.incoming: '%s whispers to you: %s'
+  commands.message.display.outgoing: 'You whisper to %s: %s'
+  chat.type.team.text: '%s <%s> %s'
+  chat.type.team.sent: -> %s <%s> %s
+  chat.type.emote: '* %s %s'
